@@ -9,3 +9,9 @@ songs_i_like <- wiki_hot_100s |>
     title == "Summertime Sadness" |
       title == "Poker Face"
     )
+
+save(songs_i_like, file = "data/songs_i_like_AV.Rdata")
+
+# change change stuff
+
+save(songs_i_like, file = "data/songs_i_like_AL.Rdata")
